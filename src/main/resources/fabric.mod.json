@@ -1,1 +1,17 @@
-
+{
+  "schemaVersion": 1,
+  "id": "token-mod",
+  "version": "1.0.0",
+  "name": "Token Mod",
+  "description": "Simple token grabber",
+  "authors": ["GitHub User"],
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.TokenMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "minecraft": ">=1.20.4",
+    "java": ">=17"
+  }
+}
